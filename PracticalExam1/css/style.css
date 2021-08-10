@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  border: 1px solid rgb(231, 70, 70);
+}
+td {
+  text-align: center;
+  width: 100px;
+}
+.contact-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding:10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(192, 159, 253);
+}
+.contact-form .head{
+  text-align: center;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+#box-display{
+  border-radius:4px;
+  padding:5px;
+}
+.gender, .language
+{
+  border: 1122px;
+  padding:5px 10px 5px 10px;
+}
+.gender .btn-radio{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
